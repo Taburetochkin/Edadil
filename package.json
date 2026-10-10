@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.7.2",
+    "@nuxt/ui": "^2.19.2",
+    "@nuxtjs/sitemap": "^7.3.0",
+    "@pinia/nuxt": "^0.10.1",
+    "nuxt": "^3.14.1592",
+    "nuxt-telegram-auth": "^1.2.6",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300 400 500 600 700 800 900;
+    font-display: swap;
+    src: url('~/assets/fonts/Rubik.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: "Rubik";
+    font-style: italic;
+    font-weight: 300 400 500 600 700 800 900;
+    font-display: swap;
+    src: url('~/assets/fonts/Rubik-Italic.ttf') format("truetype");
+  }
+}
+
+body {
+	@apply font-rubik;
+	@apply p-0;
+	@apply m-0;
+	@apply box-border;
+  @apply select-none;
+  @apply overflow-hidden;
+}

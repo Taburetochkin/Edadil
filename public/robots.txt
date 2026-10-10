@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /compare
+Disallow: /favourites
+
+Sitemap: https://technodil.ru/sitemap.xml
